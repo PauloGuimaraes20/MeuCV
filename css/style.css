@@ -3,7 +3,7 @@
 /**********************************/
 body {
     color: #666666;
-    background: #F6D155;
+    background: #124b7e;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -42,13 +42,13 @@ a:focus {
     background: #222222;
 }
 
-.wrapper .content {
-    position: relative;
-    width: 100%;
-    padding: 15px;
-    float: left;
-    background: #F6D155;
-}
+    .wrapper .content {
+        position: relative;
+        width: 100%;
+        padding: 15px;
+        float: left;
+        background: #124b7e;
+    }
 
 .wrapper .sidebar-header,
 .wrapper .sidebar-footer {
@@ -105,16 +105,16 @@ a:focus {
     .wrapper .content {
         padding: 30px 0px 30px 30px;
     }
-    
-    .wrapper .content::before,
-    .wrapper .content::after {
-        position: fixed;
-        content: "";
-        width: 100%;
-        height: 30px;
-        background: #F6D155;
-        z-index: 1;
-    }
+
+        .wrapper .content::before,
+        .wrapper .content::after {
+            position: fixed;
+            content: "";
+            width: 100%;
+            height: 30px;
+            background: #124b7e;
+            z-index: 1;
+        }
     
     .wrapper .content::before {
         top: 0;
@@ -350,23 +350,23 @@ a:focus {
 
 .large-btn .content-inner {
     font-size: 0;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #124b7e;
 }
 
 .large-btn .btn {
     position: relative;
     width: 50%;
     padding: 15px 0;
-    color: #FF6F61;
+    color: #222222;
     font-size: 20px;
-    background: #222222;
+    background: #FFFFFF;
     border-radius: 0;
 }
 
-.large-btn .btn:last-child {
-    color: #222222;
-    background: #FF6F61;
-}
+    .large-btn .btn:last-child {
+        color: #FFFFFF;
+        background: #222222;
+    }
 
 .large-btn .btn i {
     margin-right: 8px;
@@ -425,7 +425,7 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #124b7e;
 }
 
 
@@ -442,8 +442,8 @@ a:focus {
 
 .about .btn {
     border-radius: 0;
-    color: #222222;
-    background: #FF6F61;
+    color: #FFFFFF;
+    background: #222222;
     transition: all .3s;
 }
 
@@ -493,7 +493,7 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #124b7e;
 }
 
 .education .edu-col {
@@ -566,7 +566,7 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #124b7e;
 }
 
 .experience .exp-col {
@@ -653,7 +653,7 @@ a:focus {
     position: relative;
     padding: 60px 30px 30px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #124b7e;
 }
 
 .service .srv-col {
@@ -700,7 +700,7 @@ a:focus {
     position: relative;
     padding: 60px 30px 30px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #124b7e;
 }
 
 .portfolio #portfolio-flters {
@@ -847,7 +847,7 @@ a:focus {
 .review {
     position: relative;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #124b7e;
 }
 
 .review .content-inner {
@@ -1074,7 +1074,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 30px 30px 0 30px;
-    background: #F6D155;
+    background: #124b7e;
 }
 
 .footer .col-md-6:last-child {
