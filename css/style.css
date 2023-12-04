@@ -1103,3 +1103,12 @@ a {
     color: #222222;
 }
 
+.footer .btn {
+    border-radius: 0;
+    color: #222222;
+    background: #FFFFFF;
+    transition: all .3s;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem
+}
+
