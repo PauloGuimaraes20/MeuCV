@@ -12,13 +12,13 @@ a {
     transition: all .3s;
 }
 
-a:hover,
-a:active,
-a:focus {
-    color: #FF6F61;
-    outline: none;
-    text-decoration: none;
-}
+    a:hover,
+    a:active,
+    a:focus {
+        color: #1c55a2;
+        outline: none;
+        text-decoration: none;
+    }
 
 .btn:focus {
     box-shadow: none;
@@ -75,17 +75,17 @@ a:focus {
     transition: all .3s;
 }
 
-.navbar-expand-md .navbar-nav .nav-link i {
-    color: #FF6F61;
-    float: right;
-    padding-top: 5px;
-    transition: all .3s;
-}
+    .navbar-expand-md .navbar-nav .nav-link i {
+        color: #ffd700;
+        float: right;
+        padding-top: 5px;
+        transition: all .3s;
+    }
 
-.navbar-expand-md .navbar-nav .nav-link:hover,
-.navbar-expand-md .navbar-nav .nav-link.active {
-    color: #FF6F61;
-}
+    .navbar-expand-md .navbar-nav .nav-link:hover,
+    .navbar-expand-md .navbar-nav .nav-link.active {
+        color: #1c55a2;
+    }
 
 .navbar-expand-md .navbar-nav .nav-link:hover i,
 .navbar-expand-md .navbar-nav .nav-link.active i{
@@ -198,27 +198,27 @@ a:focus {
         text-align: center;
         background: #222222;
     }
-    
-    .sidebar .sidebar-footer a {
-        display: inline-block;
-        width: 40px;
-        height: 40px;
-        padding: 5px 0;
-        margin: 0 15px 15px 0;
-        text-align: center;
-        font-size: 18px;
-        color: #222222;
-        background: #FF6F61;
-    }
+
+        .sidebar .sidebar-footer a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            padding: 5px 0;
+            margin: 0 15px 15px 0;
+            text-align: center;
+            font-size: 18px;
+            color: #222222;
+            background: #1c55a2;
+        }
     
     .sidebar .sidebar-footer a:last-child {
         margin-right: 0;
     }
-    
-    .sidebar .sidebar-footer a:hover {
-        color: #FF6F61;
-        background: #ffffff;
-    }
+
+            .sidebar .sidebar-footer a:hover {
+                color: #1c55a2;
+                background: #ffffff;
+            }
     
     .sidebar:hover .sidebar-footer {
         display: block;
@@ -280,13 +280,13 @@ a:focus {
     z-index: 11;
 }
 
-.back-to-top i {
-    color: #222222;
-}
+    .back-to-top i {
+        color: #ffd700;
+    }
 
-.back-to-top i:hover {
-    color: #FF6F61;
-}
+        .back-to-top i:hover {
+            color: #222222;
+        }
 
 .back-to-top {
     -webkit-animation: action 1s infinite  alternate;
@@ -318,12 +318,12 @@ a:focus {
     background-size: contain;
 }
 
-.header p {
-    color: #FF6F61;
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
+    .header p {
+        color: #1c55a2;
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
 
 .header h1 {
     color: #222222;
@@ -398,24 +398,24 @@ a:focus {
     padding-bottom: 10px;
 }
 
-.content-header h2 {
-    color: #222222;
-    font-size: 35px;
-    font-weight: 700;
-    letter-spacing: 3px;
-    margin: 0;
-}
+    .content-header h2 {
+        color: #ffffff;
+        font-size: 35px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        margin: 0;
+    }
 
-.content-header::after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 50px;
-    height: 3px;
-    bottom: 0;
-    left: 0;
-    background: #FF6F61;
-}
+    .content-header::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 50px;
+        height: 3px;
+        bottom: 0;
+        left: 0;
+        background: #1c55a2;
+    }
 
 
 /**********************************/
@@ -447,10 +447,10 @@ a:focus {
     transition: all .3s;
 }
 
-.about .btn:hover {
-    color: #FF6F61;
-    background: #222222;
-}
+    .about .btn:hover {
+        color: #1c55a2;
+        background: #222222;
+    }
 
 .about .skills {
     padding-top: 15px;
@@ -473,17 +473,17 @@ a:focus {
 
 .about .progress {
     height: 5px;
-    border: 1px solid #FF6F61;
+    border: 1px solid #1c55a2;
     border-radius: 0;
     background: #ffffff;
 }
 
-.about .progress .progress-bar {
-    width: 1px;
-    background: #FF6F61;
-    border-radius: 0;
-    transition: 1s;
-}
+    .about .progress .progress-bar {
+        width: 1px;
+        background: #1c55a2;
+        border-radius: 0;
+        transition: 1s;
+    }
 
 
 /**********************************/
@@ -496,13 +496,13 @@ a:focus {
     border-bottom: 30px solid #124b7e;
 }
 
-.education .edu-col {
-    position: relative;
-    width: 100%;
-    padding: 20px 0 20px 20px;
-    border-left: 1px solid #FF6F61;
-    border-bottom: 1px solid #FF6F61;
-}
+    .education .edu-col {
+        position: relative;
+        width: 100%;
+        padding: 20px 0 20px 20px;
+        border-left: 1px solid #1c55a2;
+        border-bottom: 1px solid #1c55a2;
+    }
 
 .education .col-md-6:first-child .edu-col {
     padding-top: 0;
@@ -533,20 +533,20 @@ a:focus {
     margin-bottom: 10px;
 }
 
-.education .edu-col span::before {
-    position: absolute;
-    content: "";
-    width: 11px;
-    height: 11px;
-    background: #FF6F61;
-    top: 5px;
-    left: -26px;
-    border-radius: 5px;
-}
+    .education .edu-col span::before {
+        position: absolute;
+        content: "";
+        width: 11px;
+        height: 11px;
+        background: #1c55a2;
+        top: 5px;
+        left: -26px;
+        border-radius: 5px;
+    }
 
-.education .edu-col span i {
-    color: #FF6F61;
-}
+    .education .edu-col span i {
+        color: #1c55a2;
+    }
 
 .education .edu-col h3 {
     font-size: 20px;
@@ -569,13 +569,13 @@ a:focus {
     border-bottom: 30px solid #124b7e;
 }
 
-.experience .exp-col {
-    position: relative;
-    width: 100%;
-    padding: 20px 0 20px 20px;
-    border-left: 1px solid #FF6F61;
-    border-bottom: 1px solid #FF6F61;
-}
+    .experience .exp-col {
+        position: relative;
+        width: 100%;
+        padding: 20px 0 20px 20px;
+        border-left: 1px solid #1c55a2;
+        border-bottom: 1px solid #1c55a2;
+    }
 
 .experience .col-md-6:first-child .exp-col {
     padding-top: 0;
@@ -606,20 +606,20 @@ a:focus {
     margin-bottom: 10px;
 }
 
-.experience .exp-col span::before {
-    position: absolute;
-    content: "";
-    width: 11px;
-    height: 11px;
-    background: #FF6F61;
-    top: 5px;
-    left: -26px;
-    border-radius: 5px;
-}
+    .experience .exp-col span::before {
+        position: absolute;
+        content: "";
+        width: 11px;
+        height: 11px;
+        background: #1c55a2;
+        top: 5px;
+        left: -26px;
+        border-radius: 5px;
+    }
 
-.experience .exp-col span i {
-    color: #FF6F61;
-}
+    .experience .exp-col span i {
+        color: #1c55a2;
+    }
 
 .experience .exp-col h3 {
     font-size: 20px;
@@ -662,11 +662,11 @@ a:focus {
     margin-bottom: 30px;
 }
 
-.service .srv-col i {
-    font-size: 30px;
-    color: #FF6F61;
-    margin-bottom: 15px;
-}
+    .service .srv-col i {
+        font-size: 30px;
+        color: #1c55a2;
+        margin-bottom: 15px;
+    }
 
 .service .srv-col h3 {
     font-size: 20px;
@@ -710,26 +710,27 @@ a:focus {
     font-size: 0;
 }
 
-.portfolio #portfolio-flters li {
-    cursor: pointer;
-    margin: 15px -1px 0 0;
-    display: inline-block;
-    height: 35px;
-    padding: 10px;
-    color: #666666;
-    font-size: 13px;
-    line-height: 15px;
-    text-transform: uppercase;
-    border: 1px solid #FF6F61;
-    background: #ffffff;
-    transition: all 0.3s ease-in-out;
-}
+    .portfolio #portfolio-flters li {
+        cursor: pointer;
+        margin: 15px -1px 0 0;
+        display: inline-block;
+        height: 35px;
+        padding: 10px;
+        color: #666666;
+        font-size: 13px;
+        line-height: 15px;
+        text-transform: uppercase;
+        border: 1px solid #1c55a2;
+        background: #ffffff;
+        transition: all 0.3s ease-in-out;
+    }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
-    background: #FF6F61;
-    color: #222222;
-}
+        .portfolio #portfolio-flters li:hover,
+        .portfolio #portfolio-flters li.filter-active {
+            background: #1c55a2;
+            color: #ffffff;
+        }
+
 
 .portfolio .portfolio-item {
     position: relative;
@@ -757,19 +758,19 @@ a:focus {
     transition: 0.3s;
 }
 
-.portfolio .portfolio-item figure .link-preview,
-.portfolio .portfolio-item figure .link-details,
-.portfolio .portfolio-item figure .portfolio-title {
-    position: absolute;
-    display: inline-block;
-    opacity: 0;
-    line-height: 1;
-    text-align: center;
-    width: 45px;
-    height: 35px;
-    background: #FF6F61;
-    transition: 0.2s linear;
-}
+    .portfolio .portfolio-item figure .link-preview,
+    .portfolio .portfolio-item figure .link-details,
+    .portfolio .portfolio-item figure .portfolio-title {
+        position: absolute;
+        display: inline-block;
+        opacity: 0;
+        line-height: 1;
+        text-align: center;
+        width: 45px;
+        height: 35px;
+        background: #1c55a2;
+        transition: 0.2s linear;
+    }
 
 .portfolio .portfolio-item figure .link-preview i,
 .portfolio .portfolio-item figure .link-details i {
@@ -783,10 +784,10 @@ a:focus {
     background: #222222;
 }
 
-.portfolio .portfolio-item figure .link-preview:hover i,
-.portfolio .portfolio-item figure .link-details:hover i {
-    color: #FF6F61;
-}
+    .portfolio .portfolio-item figure .link-preview:hover i,
+    .portfolio .portfolio-item figure .link-details:hover i {
+        color: #1c55a2;
+    }
 
 .portfolio .portfolio-item figure .link-preview {
     left: 50%;
@@ -889,10 +890,10 @@ a:focus {
     margin-bottom: 5px;
 }
 
-.review .review-text .ratting i {
-    color: #FF6F61;
-    font-size: 14px;
-}
+    .review .review-text .ratting i {
+        color: #1c55a2;
+        font-size: 14px;
+    }
 
 .review .slick-slider:hover .slick-prev {
     left: 30px;
@@ -937,12 +938,12 @@ a:focus {
     background: rgba(0, 0, 0, .7);
 }
 
-.review-slider .slick-prev:hover::before,
-.review-slider .slick-prev:focus::before,
-.review-slider .slick-next:hover::before,
-.review-slider .slick-next:focus::before {
-    color: #FF6F61;
-}
+    .review-slider .slick-prev:hover::before,
+    .review-slider .slick-prev:focus::before,
+    .review-slider .slick-next:hover::before,
+    .review-slider .slick-next:focus::before {
+        color: #1c55a2;
+    }
 
 .review-slider .slick-prev::before,
 .review-slider .slick-next::before {
@@ -969,9 +970,9 @@ a:focus {
     font-size: 15px;
 }
 
-.review-slider .slick-dots li.slick-active button:before {
-    color: #FF6F61;
-}
+    .review-slider .slick-dots li.slick-active button:before {
+        color: #1c55a2;
+    }
 
 .review-slider.slick-slider {
     margin-bottom: 0;
@@ -1000,44 +1001,44 @@ a:focus {
     margin-bottom: 10px;
 }
 
-.contact .contact-info p i {
-    width: 25px;
-    color: #FF6F61;
-}
+    .contact .contact-info p i {
+        width: 25px;
+        color: #1c55a2;
+    }
 
 .contact .contact-info p a {
     color: #666666;
 }
 
-.contact .contact-info p a:hover {
-    color: #FF6F61;
-    text-decoration: none;
-}
+    .contact .contact-info p a:hover {
+        color: #1c55a2;
+        text-decoration: none;
+    }
 
 .contact .social {
     font-size: 0;
 }
 
-.contact .social a {
-    width: 35px;
-    height: 35px;
-    padding: 5px 0;
-    color: #222222;
-    background: #FF6F61;
-    border-radius: 0;
-    margin-top: 15px;
-    margin-right: 15px;
-    transition: all .3s;
-}
+    .contact .social a {
+        width: 35px;
+        height: 35px;
+        padding: 5px 0;
+        color: #222222;
+        background: #1c55a2;
+        border-radius: 0;
+        margin-top: 15px;
+        margin-right: 15px;
+        transition: all .3s;
+    }
 
 .contact .social a:last-child {
     margin-right: 0;
 }
 
-.contact .social a:hover {
-    color: #FF6F61;
-    background: #222222;
-}
+        .contact .social a:hover {
+            color: #1c55a2;
+            background: #222222;
+        }
 
 .contact .form {
     position: relative;
@@ -1049,22 +1050,22 @@ a:focus {
     border-radius: 0;
 }
 
-.contact .form .form-control:focus {
-    box-shadow: none;
-    border-color: #FF6F61;
-}
+    .contact .form .form-control:focus {
+        box-shadow: none;
+        border-color: #1c55a2;
+    }
 
-.contact .form .btn {
-    color: #222222;
-    background: #FF6F61;
-    border-radius: 0;
-    transition: all .3s;
-}
+    .contact .form .btn {
+        color: #222222;
+        background: #1c55a2;
+        border-radius: 0;
+        transition: all .3s;
+    }
 
-.contact .form .btn:hover {
-    color: #FF6F61;
-    background: #222222;
-}
+        .contact .form .btn:hover {
+            color: #1c55a2;
+            background: #222222;
+        }
 
 
 /**********************************/
@@ -1089,12 +1090,12 @@ a:focus {
 }
 
 .footer p {
-    color: #222222;
+    color: #ffffff;
     margin: 0;
 }
 
 .footer a {
-    color: #FF6F61;
+    color: #ffd700;
     font-weight: 600;
 }
 
